@@ -2,14 +2,17 @@ Visualstudio
 Hello!
 Make changes.
 public static void main (String [] args){
-    public void method(){
+
+    
+    
+}
+public static void method(){
         int i = 0;
         String name = "Ashok";
     }
-    public void sample(){
+    public static void sample(){
         int[] a = {1,2,3,4,5,6};
     }
-    public void placesViewed(){
+    public static void placesViewed(){
         String [] places = {Agra, kodai, ooti, vagamon};
     }
-}
