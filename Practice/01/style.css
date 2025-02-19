@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    /* background-color: black; */
+    background-image: url(https://wallpapercave.com/wp/wp6689718.jpg);
+    background-size: cover;
+}
+.navbar{
+    background: none !important;
+}
+.navbar-brand{
+    margin-left: 50px;
+    font-size:40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange !important;
+}
+
+.nav-item{
+    margin-left: 70px;
+    font-size: larger;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link{
+    color: white;
+}
+.btn{
+    margin-right: 50px;
+    color: white;
+    background-color: orange;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+.form-control{
+    border-color: orange;
+    border-width: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 45px;
+    width: 250px;
+    background: none;
+}
+.form-control ::placeholder{
+    color: aqua;
+}
+.container-fluid{
+    background: none;
+}
+/* .row{
+    display: flex;
+    justify-content: flex-start !important;
+} */
+ 
+.col1{
+    width: 60%;
+    margin-top: 130px;
+    /* display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap; */
+}
+.para1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: white;
+    margin-left: -55px;
+    margin-top:-25px;
+}
+
+.para2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: orange;
+    margin-left: -55px;
+    margin-top:-25px;
+}
+.para3{
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    text-align: justify;
+    margin-left: -55px;
+    color: white;
+    margin-top:-25px;
+    font-size:large;
+    
+}
+.col2{
+    width: 25%;
+    margin-top: 75px;
+}

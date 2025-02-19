@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //Using conditional operators
+        let a = 15
+        if (a < 18) {
+            console.log(`You are not eligible and need to wait for ${18 - a} to poll your vote`)
+            // console.log("You are not eligible and need to wait for " + (18 - a) + " to poll your vote")
+        } else {
+            console.log("You are eligible to poll your vote")
+        }
+        //Using ternory operators
+        let a1 = 25
+        a > 18 ? console.log(`You are not eligible and need to wait for ${18 - a} to poll your vote`)
+            : console.log("You are eligible to poll your vote")
+        //Age calculation
+        let year = 1995
+        let month = 8
+        let max_year = 2024
+        let max_month = 12
+        console.log(`Age of the person is ${max_year - year} years and ${max_month - month} months`)
+        // console.log("Age of the person is "+ (max_year-year) + " years and " + (max_month-month) + " months")
+
+        /*alert("Hello User:")
+        let Name = prompt("Enter your name here")
+        Name=Number(Name);
+        console.log(typeof Name)*/
+
+        //for loop
+        /* for (i = 1; i <= 5; i++) { console.log(i + 1) }
+         //While loop
+         let i1 = 5;
+         while (i1 <= 10) {
+             console.log(i1);
+             i1++;
+         }*/
+        //do while loop
+        let i2 = 1
+        do {
+            console.log(i2)
+            i2++;
+        } while (i2 <= 0);
+        
+        //loop break
+        /*let sum = 0;
+        let i3 = 1
+        while (i3 < 10) {
+            let value = 5;
+            if (i3 == value) break;
+            sum += i3;
+            i3++;
+        } alert('Sum: ' + sum);*/
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

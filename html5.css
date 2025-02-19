@@ -1,0 +1,19 @@
+.btn-outline-info{
+    width: 200px;
+    height: 100px;
+    color: rgb(254, 253, 253);
+    background-color: black;
+    border-radius: 15px;
+}
+.position-absolute .top-0 .start-100 .translate-middle {
+    border-radius: 20px;
+}
+.mb-3{
+    margin-left: 50px;
+}
+.pw{
+    margin-left: 50px;
+}
+.btn{
+    margin-left: 50px;
+}

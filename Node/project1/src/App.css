@@ -1,0 +1,72 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.popup {
+    position: fixed;
+    margin-top: 120px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 20px;
+}
+
+.count {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 220px;
+}
+
+.count-hed{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    margin-bottom: -20px;
+}
+
+.count-btn {
+    margin: 20px;
+    outline: 2px black;
+    border-radius: 20px;
+    background: white;
+    width: 100px;
+    height: 40px;
+}
+
+.count-btn2 {
+    outline: none;
+    border-radius: 20px;
+    background: grey;
+    border: none;
+    width: 200px;
+    height: 40px;
+}
+
+.text-trng{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: gray;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}

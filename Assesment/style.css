@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_container {
+    /* background-image: url(./background.png); */
+    background-image: url('https://www.megacable.com.mx/images/netflix/background-netflix.png');
+    /* background-color: rgba(0, 0, 0, 0.693); */
+    height: 728px;
+}
+
+.newnavbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.dorpdown1 {
+    margin-right: 50px;
+}
+
+.dorpdown1 .dropdown {
+    margin-right: 30px;
+}
+
+.d-flex .btnone {
+    background-color: brown;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+}
+
+.searchpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.searchpage .text-center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    width: 100%;
+    letter-spacing: 1.5px;
+}
+
+.searchpage #para2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    width: 100%;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.searchpage #para3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-size: medium;
+    width: 100%;
+    margin-top: 20px;
+}

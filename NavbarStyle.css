@@ -1,0 +1,171 @@
+.navcontainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: rgb(201, 205, 205); */
+    height: 50px;
+}
+.img1{
+    display: flex;
+    width: 12%;
+    height: 50px;
+    margin: 25px;
+}
+
+.searchbox {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    margin: 25px;
+}
+.searchbox input{
+    width: 100%; 
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(216, 218, 218);
+    font-size: medium;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    align-items:center;
+}
+
+.Login{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.Cart{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.Seller{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.Login img{
+    width: 25px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.Cart img{
+    width: 25px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.Seller img{
+    width: 25px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.Menu button {
+    /* border: none;
+    border: 0px;
+    background-color: rgb(251, 251, 251); */
+    width: 40px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.Menu button img{
+    width: 25px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.footer{
+    background-color: rgb(49, 49, 49);
+    /* display: flex; */
+    /* justify-content: flex-start;
+    align-items: center; */
+    height: 300px;
+    position: relative;
+}
+.list1 p{
+    color: antiquewhite;
+}
+.content1 .list1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style: none;
+    position: absolute;
+    top: 50px;
+}
+.list2 p{
+    color: antiquewhite;
+}
+.content1 .list2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+.list3 p{
+    color: antiquewhite;
+}
+.content1 .list3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+.list4 p{
+    color: antiquewhite;
+}
+.content1 .list4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+}
+.list5 p{
+    color: antiquewhite;
+}
+.content1 .list5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    left: 900px;
+    font-size: small;
+}
+.list6 p{
+    position: absolute;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 940px;
+    top: 150px;
+    font-size: small;
+}
+.list6 li{
+    list-style: none;
+}
+.list6 li img{
+    position: absolute;
+    top: 190px;
+    left: 980px;
+    width: 40px;
+}
+.list7 p{
+    color: antiquewhite;
+}
+.content1 .list7{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    left: 1200px;
+    font-size: small;
+}
+
+
+
+
